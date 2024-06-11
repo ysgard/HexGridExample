@@ -1,0 +1,6 @@
+CC=gcc
+
+LDLIB=-lraylib -lgdi32 -lwinmm
+
+all:
+	gcc -o hexgrid.exe main.c $(LDLIB)
